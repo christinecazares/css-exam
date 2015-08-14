@@ -19,7 +19,8 @@ Repair their code! There are 10 bugs in the code. Make a short description of wh
 */
 
 $(document).ready(function() {
-    $('nav ').css('list-style-type' square);
+    $('#nav ').onClike('list-style-type' ,contanor);
 
-    $('.output').text('.p'.text.split( ).length());
+    $('#output').text('<p>'.text.split( (string.length());
+    console.log 
 });

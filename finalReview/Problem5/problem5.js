@@ -11,10 +11,11 @@ as well as be able to meow (function that prints something to console)
 /*
 Write the Cat object definition
 */
-function Cat(color, weight, meow) {
+function Cat(color, weight) {
     this.color = color;
+    
     this.weight = weight;
-    this.meow = meow;
+    
     this.setColor = function (color) {
         this.color = color;
         $("#color").text(this.color);
@@ -23,10 +24,8 @@ function Cat(color, weight, meow) {
         this.weight = weight;
         $("#weight").text(this.weight);
     }
-    this.setmeow = function (meow) {
-        this.meow = meow;
-        $("#meow").text(this.meow);
-    }
+   
+    
 
 }
 
@@ -45,9 +44,7 @@ $(document).ready(function () {
         cat.weight = $('#weight-input').val();
         $('#weight-output').text(cat.weight);
     });
-    setInterval(function () {
-        cat.setmeow(cat.moew + 1);
-    }, 1000);
+    
     $('.cat').on('click', function () {
         console.log("The " + cat.color + " cat weighs " + cat.weight + " pounds");
         cat.meow();
