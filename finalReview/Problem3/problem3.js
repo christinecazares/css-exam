@@ -11,13 +11,9 @@ if the ball is clicked, THEN worry about moving the ball div.
 */
 
 $(document).ready(function () {
-	function onClick(left);
-	console.log(left.move right);
-	consol.log(left.currentTarget);
-}
-function onclick(right) {
-	console.log(right.move let);
-	console.log(right.currentTarget);
-	
-}
+$(".ball").on("click",function (){
+	console.log("move");
+	var ball = $(".ball").detach();
+	ball.appendTo ("#right");
+});	
 });
