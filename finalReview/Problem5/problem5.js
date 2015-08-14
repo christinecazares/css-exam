@@ -27,14 +27,9 @@ function Cat(color, weight) {
     }
     this.meow= function() {
         console.log("moew");
-        
-       
-
-
-
     }
 
-});
+}
 $(document).ready(function () {
     var cat = new Cat();
 
