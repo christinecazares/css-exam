@@ -28,7 +28,10 @@ function Cat(color, weight) {
     
 
 }
-
+function meow=(color,weight() {
+   moew=color+ weight;
+    moew++
+});
 $(document).ready(function () {
     var cat = new Cat();
 
