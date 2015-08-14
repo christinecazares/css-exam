@@ -26,7 +26,8 @@ Write the getUserInput function here
 Its should only accept 1 parameter, a css selector for the input element
 It should return the value in the input field
 */
-function setUserInput(output); {
+function getUserInput(output) {
+    return $(output).val();
     
 }
 
@@ -36,6 +37,6 @@ function setUserInput(output); {
     
     It should accept a two parameters, the css selector and the text used to set
     */
-    function setUserOutput(one,output); {
-        
+    function setOutput(css,text) {
+        $(css).text(text);
     }
