@@ -26,7 +26,8 @@ Write the getUserInput function here
 Its should only accept 1 parameter, a css selector for the input element
 It should return the value in the input field
 */
-
+while (one+two){
+console.log("the ansewrw is ");
 
 
 /*
@@ -34,3 +35,12 @@ Write the setOutput function here
 
 It should accept a two parameters, the css selector and the text used to set
 */
+if (setOutput= output+one,output+wo){
+console.log ( "the # is");
+} 
+if (setOutput=output+output) {
+    console.log("u r # is ");
+}
+}
+
+    

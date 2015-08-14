@@ -10,6 +10,14 @@ If you're stumped, try getting something to log to the console
 if the ball is clicked, THEN worry about moving the ball div.
 */
 
-$(document).ready(function() {
-
+$(document).ready(function () {
+	function onClick(left);
+	console.log(left.target);
+	consol.log(left.currentTarget);
+}
+function onclick(right) {
+	console.log(right.target);
+	console.log(right.currentTarget);
+	
+}
 });

@@ -21,5 +21,6 @@ Repair their code! There are 10 bugs in the code. Make a short description of wh
 $(document).ready(function() {
     $('nav <ul/>').on('list-style-type' square);
 
-    $('.output').text('<p/>'.text.split( ).length());
+    $('output').text('<p/>'.text.split( )string.length());
+    console.log
 });
