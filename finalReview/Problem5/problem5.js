@@ -13,24 +13,27 @@ Write the Cat object definition
 */
 function Cat(color, weight) {
     this.color = color;
-    
+
     this.weight = weight;
-    
+
     this.setColor = function (color) {
         this.color = color;
         $("#color").text(this.color);
     }
     this.setWeight = function (weight) {
         this.weight = weight;
+
         $("#weight").text(this.weight);
     }
-   
-    
+    this.meow= function() {
+        console.log("moew");
+        
+       
 
-}
-function meow=(color,weight() {
-   moew=color+ weight;
-    moew++
+
+
+    }
+
 });
 $(document).ready(function () {
     var cat = new Cat();
@@ -47,7 +50,7 @@ $(document).ready(function () {
         cat.weight = $('#weight-input').val();
         $('#weight-output').text(cat.weight);
     });
-    
+
     $('.cat').on('click', function () {
         console.log("The " + cat.color + " cat weighs " + cat.weight + " pounds");
         cat.meow();
